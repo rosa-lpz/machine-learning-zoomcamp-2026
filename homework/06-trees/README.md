@@ -48,11 +48,10 @@ Which original feature is used for splitting the data? If you use
 `DictVectorizer`, map a one-hot feature such as `origin=USA` back to its
 original column name.
 
-
-* `'vehicle_weight'`
-* `'model_year'`
-* `'origin'`
-* `'fuel_type'`
+* [ ] `'vehicle_weight'`
+* [x] `'model_year'`
+* [ ] `'origin'`
+* [ ] `'fuel_type'`
 
 
 ## Question 2
@@ -66,10 +65,10 @@ Train a random forest regressor with these parameters:
 
 What's the RMSE of this model on the validation data?
 
-* 0.1837
-* 1.837
-* 18.37
-* 183.7
+* [ ] 0.1837
+* [x] 1.837
+* [ ] 18.37
+* [ ] 183.7
 
 
 ## Question 3
@@ -84,10 +83,10 @@ Now let's experiment with the `n_estimators` parameter
 Which value gives the lowest validation RMSE? Consider 3 decimal places for
 calculating the answer.
 
-- 10
-- 50
-- 100
-- 150
+- [ ] 10
+- [ ] 50
+- [ ] 100
+- [x] 150
 
 
 ## Question 4
@@ -102,11 +101,10 @@ Let's select the best `max_depth`:
 
 
 What's the best `max_depth`, using the mean RMSE?
-
-* 10
-* 15
-* 20
-* 25
+* [x] 10
+* [ ] 15
+* [ ] 20
+* [ ] 25
 
 
 ## Question 5
@@ -133,10 +131,10 @@ For this homework question, we'll find the most important feature:
 
 What's the most important feature (among these 4)? 
 
-* `vehicle_weight`
-*	`horsepower`
-* `acceleration`
-* `engine_displacement`	
+* [x] `vehicle_weight`
+* [ ] `horsepower`
+* [ ] `acceleration`
+* [ ] `engine_displacement`	
 
 
 ## Question 6
